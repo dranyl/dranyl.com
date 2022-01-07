@@ -14,3 +14,8 @@ npm install @mui/icons-material
 
 npm install ityped
 [https://www.npmjs.com/package/ityped](https://www.npmjs.com/package/ityped)
+
+### color pallette
+
+https://www.color-hex.com/color-palettes/popular.php
+https://www.color-hex.com/color-palette/5057
