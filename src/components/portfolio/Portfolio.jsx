@@ -2,59 +2,59 @@ import PortfolioList from '../portfolioList/PortfolioList'
 import './portfolio.scss'
 import { useState, useEffect } from 'react'
 import {
-  featuredPortfolio,
-  webPortfolio,
-  mobilePortfolio,
-  designPortfolio,
-  contentPortfolio,
+  data_all,
+  data_reactjs,
+  data_python,
+  // designPortfolio,
+  // contentPortfolio,
 } from '../../data'
 
 export default function Portfolio() {
-  const [selected, setSelected] = useState('featured')
+  const [selected, setSelected] = useState('all')
   const [data, setData] = useState([])
 
   const list = [
     {
-      id: 'featured',
-      title: 'Featured',
+      id: 'all',
+      title: 'All',
     },
     {
-      id: 'web',
-      title: 'Web App',
+      id: 'react-js',
+      title: 'React-JS',
     },
     {
-      id: 'mobile',
-      title: 'Mobile App',
+      id: 'python',
+      title: 'Python',
     },
-    {
-      id: 'design',
-      title: 'Design',
-    },
-    {
-      id: 'content',
-      title: 'Content',
-    },
+    // {
+    //   id: 'design',
+    //   title: 'Design',
+    // },
+    // {
+    //   id: 'content',
+    //   title: 'Content',
+    // },
   ]
 
   useEffect(() => {
     switch (selected) {
-      case 'featured':
-        setData(featuredPortfolio)
+      case 'all':
+        setData(data_all)
         break
-      case 'web':
-        setData(webPortfolio)
+      case 'react-js':
+        setData(data_reactjs)
         break
-      case 'mobile':
-        setData(mobilePortfolio)
+      case 'python':
+        setData(data_python)
         break
-      case 'design':
-        setData(designPortfolio)
-        break
-      case 'content':
-        setData(contentPortfolio)
-        break
+      // case 'design':
+      //   setData(designPortfolio)
+      //   break
+      // case 'content':
+      //   setData(contentPortfolio)
+      //   break
       default:
-        setData(featuredPortfolio)
+        setData(data_all)
     }
   }, [selected])
 

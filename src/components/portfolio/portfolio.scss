@@ -7,6 +7,7 @@
   align-items: center;
 
   h1 {
+    margin: 20px;
     font-size: 50px;
   }
 
@@ -15,8 +16,6 @@
     padding: 0;
     list-style: none;
     display: flex;
-
-    
   }
 
   .container {
@@ -27,9 +26,11 @@
     flex-wrap: wrap;
 
     .item {
-      width: 220px;
-      height: 150px;
-      border-radius: 20px;
+      // width: 220px;
+      // height: 150px;
+      width: 320px;
+      height: 250px;
+      border-radius: 10px;
       border: 1px solid rgb(236, 234, 234);
       margin: 10px 20px;
       display: flex;
@@ -38,11 +39,16 @@
       color: white;
       position: relative;
       transition: all 0.5s ease;
-      cursor: pointer;
+      // cursor: pointer;
 
       h3 {
         position: absolute;
         font-size: 20px;
+        // background-color: #4caf50;
+        padding: 10px;
+        border-radius: 5px;
+        // cursor: pointer;
+        // color: white;
       }
 
       img {

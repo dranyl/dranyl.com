@@ -18,12 +18,12 @@ export default function Intro() {
     <div className='intro' id='intro'>
       <div className='left'>
         <div className='imgContainer'>
-          <img src='assets/profile3.png' alt='' />
+          <img src='assets/IMG_profile4.JPG' alt='' />
         </div>
       </div>
       <div className='right'>
         <div className='wrapper'>
-          <h2>Hi There, I'm</h2>
+          <h2>Welcome, I'm</h2>
           <h1>Lynard Salingujay</h1>
           <h3>
             I'm interested in <span ref={textRef}></span>
