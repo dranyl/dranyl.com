@@ -98,7 +98,10 @@
     a {
       position: absolute;
       bottom: 10px;
-      // left: 40%;
+
+      @include mobile {
+        left: 50%;
+      }
 
       img {
         width: 30px;
