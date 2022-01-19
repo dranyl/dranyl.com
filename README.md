@@ -2,8 +2,9 @@
 
 ### Install Dependencies
 
-<h3>:memo: SASS</h3> 
-1. yarn add node-sass 
+<h3>:memo: SASS</h3>
+
+1. yarn add node-sass
 2. npm install node-sass
 
 ### install material-ui
