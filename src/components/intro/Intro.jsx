@@ -10,7 +10,13 @@ export default function Intro() {
       showCursor: true,
       backDelay: 1500,
       backSpeed: 60,
-      strings: ['Software Development', 'CyberSecurity'],
+      strings: [
+        'Software Development Engineer',
+        'Software Engineer',
+        'IT Specialist',
+        'Support Analyst',
+        'Senior Java Developer',
+      ],
     })
   }, [])
 
@@ -26,7 +32,7 @@ export default function Intro() {
           <h2>Welcome, I'm</h2>
           <h1>Lynard Salingujay</h1>
           <h3>
-            I'm interested in <span ref={textRef}></span>
+            <span ref={textRef}></span>
           </h3>
         </div>
         <a href='#portfolio'>

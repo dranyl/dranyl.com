@@ -1,9 +1,10 @@
 # My personal website - https://dranyl.com
 
-### install sass
+### Install Dependencies
 
-option 1: yarn add node-sass
-option 2: npm install node-sass \*
+<h3>:memo: SASS</h3> 
+1. yarn add node-sass 
+2. npm install node-sass
 
 ### install material-ui
 

@@ -1,4 +1,5 @@
 import './portfolio.scss'
+import GitHubIcon from '@mui/icons-material/GitHub'
 
 export default function Portfolio() {
   return (
@@ -16,6 +17,9 @@ export default function Portfolio() {
           <div className='bottom'>
             <h3>https://dranyl.com</h3>
             <h4>This website</h4>
+            <a href='https://github.com/dranyl/dranyl.com' target='_blank'>
+              <GitHubIcon className='icon' />
+            </a>
           </div>
         </div>
       </div>
