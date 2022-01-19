@@ -2,22 +2,22 @@
 
 ### Install Dependencies
 
-<h3>:memo: SASS</h3>
+<h3>:memo: SaSS</h3>
 
 1. yarn add node-sass
 2. npm install node-sass
 
-### install material-ui
+<h3>:memo: Material-UI</h3>
 
-npm install @mui/material @emotion/react @emotion/styled
-npm install @mui/icons-material
+1. npm install @mui/material @emotion/react @emotion/styled
+2. npm install @mui/icons-material
 
-### install ityped
+<h3>:memo: iTyped</h3>
 
-npm install ityped
-[https://www.npmjs.com/package/ityped](https://www.npmjs.com/package/ityped)
+1. npm install ityped
+   [https://www.npmjs.com/package/ityped](https://www.npmjs.com/package/ityped)
 
-### color pallette
+<h3>:memo: Color Pallette</h3>
 
-https://www.color-hex.com/color-palettes/popular.php
-https://www.color-hex.com/color-palette/5057
+1. https://www.color-hex.com/color-palettes/popular.php
+2. https://www.color-hex.com/color-palette/5057
