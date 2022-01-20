@@ -14,8 +14,9 @@
     overflow: hidden;
 
     .imgContainer {
-      width: 600px;
-      height: 600px;
+      width: 550px;
+      height: 550px;
+      margin-top: 20px;
       background-color: #d4f0fc;
       border-radius: 50%;
       display: flex;
@@ -24,9 +25,10 @@
       float: right;
       overflow: hidden;
 
-      // @include mobile {
-      //   align-items: center;
-      // }
+      @include mobile {
+        width: 500px;
+        height: 500px;
+      }
 
       img {
         width: 100%;
