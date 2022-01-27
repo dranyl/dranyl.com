@@ -10,10 +10,10 @@ export default function Portfolio() {
           <div className='top'>
             <img src='assets/featured_webapp.png' alt='' />
           </div>
-          <div className='center'>
+          {/* <div className='center'>
             This is my personal website using ReactJS framework and SaSS for css
             styling.
-          </div>
+          </div> */}
           <div className='bottom'>
             <h3>https://dranyl.com</h3>
             <h4>This website</h4>
