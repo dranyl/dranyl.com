@@ -1,5 +1,13 @@
 # My personal website - https://dranyl.com
 
+This is my personal website using ReactJS framework and SaSS for css styling.
+
+Other feature like Material-UI for icon styling and iTyped library for cursor style presentation are included in this project.
+
+This webpage is constantly changing as part of my learning process in frontend development.
+
+Hope you enjoy!
+
 ### Install Dependencies
 
 <h3>:memo: SaSS</h3>
