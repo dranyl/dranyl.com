@@ -3,8 +3,10 @@ import './blog.scss'
 import { useState, useEffect } from 'react'
 import {
   data_all,
-  data_reactjs,
+  data_java,
+  data_react,
   data_python,
+  data_others,
   // designPortfolio,
   // contentPortfolio,
 } from '../../data'
@@ -19,12 +21,20 @@ export default function Blog() {
       title: 'All',
     },
     {
-      id: 'react-js',
-      title: 'React-JS',
+      id: 'java',
+      title: 'Java',
+    },
+    {
+      id: 'react',
+      title: 'React',
     },
     {
       id: 'python',
       title: 'Python',
+    },
+    {
+      id: 'others',
+      title: 'Others',
     },
     // {
     //   id: 'design',
@@ -41,11 +51,17 @@ export default function Blog() {
       case 'all':
         setData(data_all)
         break
-      case 'react-js':
-        setData(data_reactjs)
+      case 'java':
+        setData(data_java)
+        break
+      case 'react':
+        setData(data_react)
         break
       case 'python':
         setData(data_python)
+        break
+      case 'others':
+        setData(data_others)
         break
       // case 'design':
       //   setData(designPortfolio)
@@ -75,7 +91,13 @@ export default function Blog() {
         {data.map((d) => (
           <div className='item'>
             <img src={d.img} alt='' />
-            <h3>{d.title}</h3>
+            {/* <a href={d.url} target='_blank' rel='noreferrer'> */}
+            {/* <h3> */}
+            <a href={d.url} target='_blank' rel='noreferrer'>
+              {d.title}
+            </a>
+            {/* </h3> */}
+            {/* </a> */}
           </div>
         ))}
       </div>
