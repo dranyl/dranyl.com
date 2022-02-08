@@ -37,8 +37,10 @@
     .item {
       // width: 220px;
       // height: 150px;
-      width: 320px;
-      height: 250px;
+      // width: 320px;
+      // height: 250px;
+      width: 260px;
+      height: 190px;
       border-radius: 10px;
       border: 1px solid rgb(236, 234, 234);
       margin: 10px 20px;
@@ -72,6 +74,7 @@
         padding: 10px;
         border-radius: 5px;
         cursor: pointer;
+        text-align: center;
       }
       // }
 
